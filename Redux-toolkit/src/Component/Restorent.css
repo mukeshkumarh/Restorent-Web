@@ -1,0 +1,136 @@
+body{
+    background-color: rgb(217, 255, 196);
+}
+
+  .main-card-containar{
+    margin-top: 200px;
+    display: flex;
+    flex-wrap: wrap;
+    height: 100vh;
+    width: 100%;
+   gap: 30px;
+   justify-content: space-around;
+   
+  }
+  
+  .card-containar{
+display: flex;
+flex-direction: column;
+flex-flow: wrap column;
+align-items: center;
+
+  }
+ .card{
+    display: block;
+    height: 350px;
+    width: 300px;
+    background-color: white;
+    border-radius: 5px;
+ } 
+.card-body{
+display: block;
+
+}
+.card-number{
+    position: relative;
+    top: 8px;
+    left: 10px;
+font-size: 12px;
+}
+.card-author{
+display: block;
+font-size: 12px;
+letter-spacing: 0.5px;
+position: relative;
+top: 12px;
+left: 10px;
+
+}
+.card-title{
+
+    font-size: 30px;
+    font-weight: 300;
+    line-height: 30px;
+    text-align: center;
+    position: relative;
+    top: 10px;
+}
+.card-description{
+font-size: 300;
+line-height: 10px;
+position: relative;
+top: 20px;
+left: 10px;
+right: 10px;
+}
+.card-read{
+position: relative;
+left: 210px;
+top: 30px;
+}
+.card-image{
+    position: relative;
+    top: 20px;
+    left: 20px;
+width: 170px;
+height: 150px;
+border-radius: 1px;
+
+
+}
+.card-tage{
+    position: relative;
+    top: 0px;
+    left: 220px;
+}
+
+.Nav-Contanar{
+    width: 60%;
+    height: 60px;
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+     margin-top: 40px; 
+   position: relative;
+left: 20%;
+border-radius: 20px;
+}
+.btn-group{
+    align-items: center;
+    /* margin-top: 20px; */
+    padding: 20px;
+ font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+font-size: 12px;
+display: flex;
+flex-flow: wrap row;
+}
+
+.breakfast{
+    position: relative;
+    left: 25%;
+    font-size: 20px;
+    background-color: black;
+    color: white;
+}
+.lunch{
+    position: relative;
+    left: 95%;
+    font-size: 20px;
+    background-color: black;
+    color: white;
+}
+.dinner{
+    position: relative;
+    left: 160%;
+    font-size: 20px;
+    background-color: black;
+color: white;
+}
+.All{
+position: relative;
+left: 210%;
+font-size: 20px;
+text-decoration: none;
+background-color: black;
+color: white;
+}
